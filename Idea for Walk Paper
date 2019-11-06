@@ -1,1 +1,12 @@
 Idea. 
+The idea is the number of miles that we have walked in a semester so that we see how far we have walked from Atl. For example as user, if put 150 miles on a text box, I can see from Atl, where 150 can take me. 
+
+Technologies used
+  React
+  Google maps 
+  
+  
+Challenges/Things to figure out 
+  What other APIs are we going to use that can determine where we travel to.
+  How to connect the back and front end
+  
