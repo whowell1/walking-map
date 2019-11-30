@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Map from './components/Map.js'
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,6 +13,7 @@ function App() {
 
     <div className="App">
       <header className="App-header">
+      <Map/>
         
       <Form>
   <Form.Group controlId="formBasicEmail">
