@@ -1,17 +1,29 @@
 import React, { Component } from 'react';
 
 class InputBox extends Component {
-
-
-    handle()
+    constructor()
     {
-        console.log("hello");
+        super();
+        this.state= {
+            data: ''
+        }
+    
+
+    }
+    handle(event)
+    {
+        this.setState({
+            data:event.target.value
+        })
     }
     render(){
       return(
         <div>
             
-            <input type="text" onChange={this.handle.bind(this)} />
+            <input 
+            type="text" 
+            placeholder="Enter number of steps here"
+            onChange={this.handle.bind(this)} />
             
             </div>
       );
