@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-google-maps/api": "^1.7.14",
+    "@react-google-maps/api": "^1.8.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "react": "^16.11.0",
