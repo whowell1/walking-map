@@ -1,7 +1,5 @@
 {
-  "homepage": "http://whowell1.github.io/walking-map"
-
-  "name": "walking-map",
+  "homepage": "http://whowell1.github.io/walking-map",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +13,8 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
