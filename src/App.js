@@ -55,14 +55,13 @@ function Map() {
           drawingModes: [
             google.maps.drawing.OverlayType.CIRCLE,
             google.maps.drawing.OverlayType.POLYGON,
-            google.maps.drawing.OverlayType.POLYLINE,
             google.maps.drawing.OverlayType.RECTANGLE,
           ],
         },
         circleOptions: {
           fillColor: `#ffff00`,
-          fillOpacity: 1,
-          strokeWeight: 5,
+          fillOpacity: 0.5,
+          strokeWeight: 3,
           clickable: false,
           editable: true,
           zIndex: 1,
